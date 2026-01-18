@@ -3,8 +3,6 @@ name: CI Pipeline
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   basic-checks:
@@ -14,12 +12,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Show files
-        run: |
-          pwd
-          ls -la
+      - name: List files
+        run: ls -la
 
-      - name: Print app.txt
-        run: |
-          echo "---- app.txt ----"
-          cat app.txt
+      - name: Show app.txt
+        run: cat app.txt
+
