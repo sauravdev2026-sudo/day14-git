@@ -1,19 +1,17 @@
-# DevOps Learning Project
+# Day14 Git Project
 
-This repository is part of my DevOps learning journey.
+## Setup Instructions
 
-## What this project does
-- Practice Git and GitHub workflows
-- Learn branching, issues, pull requests, and CI pipelines
-- Build real-world DevOps habits step by step
+Follow these steps to run this project locally:
 
-## Tools used
-- Git
-- GitHub
-- GitHub Actions
-- Linux
-- Docker (later stages)
+1. Clone the repository:
+   git clone https://github.com/sauravdev2026-sudo/day14-git.git
 
-## Author
-Saurav Dev
+2. Move into the project folder:
+   cd day14-git
+
+3. This project is used for learning Git, GitHub, issues, branches, and pull requests.
+
+## Purpose
+This repository is part of a DevOps learning journey to understand GitHub workflows step by step.
 
