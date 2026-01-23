@@ -15,3 +15,12 @@ Follow these steps to run this project locally:
 ## Purpose
 This repository is part of a DevOps learning journey to understand GitHub workflows step by step.
 
+## Usage
+
+This project demonstrates basic Git and GitHub workflows.
+
+### How to use this project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sauravdev2026-sudo/day14-git.git
